@@ -1,3 +1,3 @@
-function updateHeader() {
-    document.getElementById("header").textContent("Let's update some content!");
+function changeHeader() {
+    document.getElementById("header").innerText = "Let's update some content!";
 }
