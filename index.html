@@ -2,9 +2,14 @@
 <head>
     <title>neoGCamp - Trial</title>
     <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-    <h1 id="header">This is a sample header.</h1>
-    <button onclick="changeHeader()">Click Me.</button>
+    <div id="content">
+        <h1 id="header">Is my birthday prime?</h1>
+        <label>Enter your name : </label><input type="text" id="name" name="name"/><br/><br/>
+        <label>Enter your date of birth : (Without year, of course!) </label><input type="text" id="dob" name="DOB" title = "Only date and month, please!" pattern="\d{2}-\d{2}"/><br/><br/>
+        <button onclick="checkPrime()">Check!</button>
+    </div>
 </body>
 </html>
